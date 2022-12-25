@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main cap of web  */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.menus li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #696871;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+
+.btn a {
+    font-size: 17px;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #FF7143;
+}
+
+/* animation of mini-cap  */
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.menus a:hover {
+    border-bottom: 2px solid #5454D4;
+}
+
+.btn a:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+/* style of first container  */
+
+.container_first {
+    margin: 100px 0 0 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iner {
+    display: flex;
+    flex-direction: column;
+}
+
+.iner_logo {
+    padding: 92px 72px 0 0;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.iner_second {
+    position: relative;
+}
+
+.iner_text {
+    padding: 30px 0 50px;
+    color: #696871;
+    line-height: 20px;
+}
+
+.mini-nav {
+    display: flex;
+    align-items: center;
+}
+
+
+/* stile of mini-nav  */
+
+.blue_btn a {
+    background-color: blue;
+    text-align: center;
+    padding: 19px 60px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.arrowdown a {
+    margin-left: 40px;
+}
+
+.arrowdown img {
+    padding: 25px;
+    border: 1px solid #E7E7E7;
+    border-radius: 40px;
+}
+
+/* animation of mini-nav  */
+
+.blue_btn a:hover {
+    background-color: #FF7143;
+    color: #fff;
+    transition: 1s;
+}
+
+.arrowdown img:hover {
+    rotate: 360deg;
+    transition: 1s;
+}
+
+
+/* style firs picture  */
+
+.man {
+    width: 580px;
+    height: 644px;
+    position: relative;
+    z-index: 1;
+}
+
+.back {
+    position: absolute;
+    top: 116px;
+    left: 56px;
+    z-index: 0;
+}
+
+.hover {
+    position: absolute;
+    top: 421px;
+    left: 381px;
+}
+
+/* section with logo  */
+
+ul img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.logo_section ul {
+    padding-top: 20px;
+    padding-bottom: 150px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* container_second style  */
+
+
+.container_second{
+    display: flex;
+    flex-direction: column;
+}
+
+.iner_second, .iner_second_low{
+
+    display: flex;
+    justify-content:space-around;
+}
+
+/* style of pictures second container  */
+.second_picture{
+    padding-left: 168px;
+    position: relative;
+}
+
+.diograma_man{
+    position: relative;
+}
+
+.diograma{
+    position:absolute;
+    z-index: 2;
+    top: 84px;
+    left: 0px;
+}
+
+.second_picture_low, .graphic_man{
+    position: relative;
+    z-index: 1;
+}
+
+.graphic{
+    position: absolute;
+    top: 19px;
+    left: 140px;
+    z-index:0 ;
+}
+
+
+/* style of text second container  */
+
+.second_text h2, .second_text_low h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 180px;
+line-height: 57px;
+}
+
+.second_text p, .second_text_low p{
+    padding: 20px 0 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #696871;
+    width: 450px;
+}
+
+.second_text a, .second_text_low a{
+    color: blue;
+    font-size: 17px;
+}
+
+.container_second a:hover{
+    border-bottom: 2px solid blue;
+}
+
+
+/* style of third container  */
+
+.third_container{
+display: flex;
+justify-content: space-around;
+padding:140px 0;
+}
+
+.third_container div{
+    text-align: center;
+}
+
+.third_container img{
+    padding-left: 30px;
+}
+
+.third_container h2{
+    padding: 20px 0;
+    font-family: 'DM Sans', sans-serif;
+font-size: 24px;
+line-height: 36px;
+}
+
+.third_container p{
+color:#696871;
+font-size: 16px;
+}
+
+
+/* style of fouth container   */
+
+.fouth_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fouth_container h2{
+    font-size: 60px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn_y_n{
+    padding-left: 430px;
+}
+
+.btn_y_n a{
+    padding: 20px 30px;
+    color: black;
+    font-size: 16px;
+    font-family:  'DM Sans', sans-serif;
+}
+
+
+.btn_y_n a:hover{
+    background-color: #5454D4;
+    color: #fff;
+    transition: 1s;
+}
+
+/* style of footer  */
+
+.footer{
+    margin: 80px 0 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer div{
+    border-radius: 20px;
+    padding: 40px 40px;
+    background-color:#F8F8F8;
+    text-align: center;
+    line-height: 50px;
+    color: #696871;
+}
+
+.hover_cards a{
+    border-radius: 20px;
+    padding: 20px 100px;
+    color: #5454D4;
+}
+
+.hover_cards:hover{
+    color: #fff;
+    background-color: #FF7143;
+    transform: scale(1.1);
+    
+    transition: 1s;
+}
+
+.hover_cards a:hover{
+    background-color: #9F3919;
+    color: #fff;
+    transition: 1s;
+}
+
+
+.hover_cards h2{
+    color: black;
+    font-family:  'DM Sans', sans-serif;
+font-size: 60px;
+line-height: 56px;
+text-align: center;
+}
+
+h2 span{
+    font-size: 30px;
+}
